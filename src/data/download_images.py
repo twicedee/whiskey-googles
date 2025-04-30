@@ -3,7 +3,7 @@
 import os
 import requests
 import pandas as pd
-from tqdm import tqdm  # for progress bar
+from tqdm import tqdm  
 
 # Load the dataset
 df = pd.read_csv("dataset/raw/501 Bottle Dataset - Sheet1.csv")

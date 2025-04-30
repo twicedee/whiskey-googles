@@ -32,4 +32,11 @@ def create_hybrid_model():
 
 if __name__ == "__main__":
     # Ensure models directory exists
-    ensure_dir("models/trained_models/")
+    ensure_dir("models/trained_models/")
+    
+    # Train/initialize all models
+    train_text_model()
+    train_visual_model()
+    create_hybrid_model()
+    
+    print("All models created successfully!")

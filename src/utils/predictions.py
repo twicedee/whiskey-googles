@@ -21,4 +21,12 @@ def get_filtered_predictions(image_path, text_model, visual_model, hybrid_model)
     hybrid_results = hybrid_model.recognize(image_path)
     
     # Apply confidence thresholds
-    filtered_text = apply_confidence_th
+    filtered_text = apply_confidence_threshold(text_results, TEXT_THRESHOLD)
+    filtered_visual = apply_confidence_threshold(visual_results, VISUAL_THRESHOLD)
+    filtered_hybrid = apply_confidence_threshold(hybrid_results, HYBRID_THRESHOLD)
+    
+    return {
+        'text': filtered_text,
+        'visual': filtered_visual,
+        'hybrid': filtered_hybrid
+    }
