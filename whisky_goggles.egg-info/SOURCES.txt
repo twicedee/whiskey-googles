@@ -1,0 +1,6 @@
+setup.py
+test/test1.py
+whisky_goggles.egg-info/PKG-INFO
+whisky_goggles.egg-info/SOURCES.txt
+whisky_goggles.egg-info/dependency_links.txt
+whisky_goggles.egg-info/top_level.txt

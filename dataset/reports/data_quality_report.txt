@@ -1,0 +1,232 @@
+=== DATASET OVERVIEW ===
+Total entries: 501
+Columns: ['id', 'name', 'size', 'proof', 'abv', 'spirit_type', 'brand_id', 'popularity', 'image_url', 'avg_msrp', 'fair_price', 'shelf_price', 'total_score', 'wishlist_count', 'vote_count', 'bar_count', 'ranking']
+
+=== MISSING VALUES ===
+                Missing Values  Percentage (%)
+id                           0            0.00
+name                         0            0.00
+size                         0            0.00
+proof                       79           15.77
+abv                          0            0.00
+spirit_type                  4            0.80
+brand_id                     4            0.80
+popularity                  33            6.59
+image_url                    1            0.20
+avg_msrp                     3            0.60
+fair_price                   0            0.00
+shelf_price                  0            0.00
+total_score                  0            0.00
+wishlist_count               0            0.00
+vote_count                   0            0.00
+bar_count                    0            0.00
+ranking                      0            0.00
+
+=== ROWS WITH MISSING CRITICAL DATA ===
+        id                                                          name                                                          name  brand_id                                                                                   image_url  proof    abv
+1     2848                                            Eagle Rare 10 Year                                            Eagle Rare 10 Year     542.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/ecce066b-6b3d-4b58-bd04-8bf9c67e3e92    NaN  45.00
+2     4984                                  E.H. Taylor, Jr. Small Batch                                  E.H. Taylor, Jr. Small Batch     210.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recE8VJ2hGGJwZjdh    NaN  50.00
+4      158                                            Weller Antique 107                                            Weller Antique 107     156.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/rec8X36afthvgqzO9    NaN  53.50
+5     2803                                        Weller Special Reserve                                        Weller Special Reserve     156.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/rec3BbLSm2nodYUyX    NaN  45.00
+8     4662                                         Henry McKenna 10 Year                                         Henry McKenna 10 Year     777.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recA4ugxUL7JhJfau    NaN  50.00
+9      409                                             Weller Full Proof                                             Weller Full Proof     156.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reca43ZoXAj2Ri9Lg    NaN  57.00
+10    5120                                E.H. Taylor, Jr. Single Barrel                                E.H. Taylor, Jr. Single Barrel     210.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recGEFcW3n6oxv1Uo    NaN  50.00
+11   13266                            Heaven Hill Bottled In Bond 7 Year                            Heaven Hill Bottled In Bond 7 Year     430.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recSJfTSxTvljLvF8    NaN  50.00
+12   13089                                   Elijah Craig Toasted Barrel                                   Elijah Craig Toasted Barrel     430.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reciJGrkEXMQOdqYk    NaN  47.00
+13     150                                               1792 Full Proof                                               1792 Full Proof      42.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recVcP95KH4To384H    NaN  62.50
+16    1296                                            Knob Creek 12 Year                                            Knob Creek 12 Year     189.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recLpshU8Flh0HWX2    NaN  50.00
+17    1805                                           Sazerac Rye Whiskey                                           Sazerac Rye Whiskey     705.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recRzB6sPjEkkc9Ac    NaN  45.00
+20    1522                                     Russell's Reserve 10 Year                                     Russell's Reserve 10 Year     191.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/7dc9a32b-a17e-4f97-9fed-55a1590dc01e    NaN  45.00
+23    4589                                               Weller C.Y.P.B.                                               Weller C.Y.P.B.     156.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recz9x6jyd356mKQr    NaN  47.50
+30    3655                                                  Angel's Envy                                                  Angel's Envy      96.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recouUD6gO8QVoZAR    NaN  43.30
+34    1821                               Russell’s Reserve Single Barrel                               Russell’s Reserve Single Barrel     496.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/d2934235-5ffd-4e02-a3f1-c71a5fa1950c    NaN  55.00
+35     355                                      Baker's 7 Year 107 Proof                                      Baker's 7 Year 107 Proof     288.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recamriufRtYtLcwg    NaN  53.50
+38    1211                                    Old Rip Van Winkle 10 Year                                    Old Rip Van Winkle 10 Year     370.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recKrKq9ATE8BVhNn    NaN  53.50
+46    3300                       Pappy Van Winkle 15 Year Family Reserve                       Pappy Van Winkle 15 Year Family Reserve     370.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recjiFptLtS476Iks    NaN  53.50
+54    4448                                          Weller Single Barrel                                          Weller Single Barrel     156.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recymUAsNYUGbaDtF    NaN  48.50
+59    4373                                 Four Roses Small Batch Select                                 Four Roses Small Batch Select     148.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recxCeSAkg3glsde0    NaN  52.00
+60    3671                                 E.H. Taylor, Jr. Straight Rye                                 E.H. Taylor, Jr. Straight Rye     210.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recoJexD0pX8tv9Ik    NaN  50.00
+62     519                       Pappy Van Winkle 23 Year Family Reserve                       Pappy Van Winkle 23 Year Family Reserve     370.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reccmI7Umn58SrhlY    NaN  47.80
+63   15947                               Smoke Wagon Small Batch Bourbon                               Smoke Wagon Small Batch Bourbon    2808.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recI16sGF7SwKOZdS    NaN  50.00
+68    4002         Michter's 10 Year Single Barrel Bourbon 2020 Bottling         Michter's 10 Year Single Barrel Bourbon 2020 Bottling     405.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recs75GObErBZMTwy    NaN  47.20
+70   13584                  Jack Daniel's Single Barrel Rye Barrel Proof                  Jack Daniel's Single Barrel Rye Barrel Proof     231.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/11069838-17b3-45f2-886f-318ca32a627e    NaN  65.15
+71    3694                    Van Winkle 12 Year Special Reserve Lot "B"                    Van Winkle 12 Year Special Reserve Lot "B"     370.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recoadopI6awI3NgY    NaN  45.20
+87   20783                               Larceny Barrel Proof Batch C923                               Larceny Barrel Proof Batch C923     587.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recqeUfxaGZEBqd2E    NaN  63.20
+96   16960                                            Basil Hayden Toast                                            Basil Hayden Toast     330.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reclxqPnJFmtXz1Hs    NaN  40.00
+103   4776                       Pappy Van Winkle 20 Year Family Reserve                       Pappy Van Winkle 20 Year Family Reserve     370.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recCRPpOTPWSMLbAX    NaN  45.20
+108   3317              Michter's Limited Release Toasted Barrel Bourbon              Michter's Limited Release Toasted Barrel Bourbon     405.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recknpSLFePovphgH    NaN  45.70
+111   2353                                Knob Creek 15 Year Batch KC001                                Knob Creek 15 Year Batch KC001     189.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recYQ8t3Q61FexPtD    NaN  50.00
+128    220                                                   Noah's Mill                                                   Noah's Mill    8577.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/rec850EjFSGBieSX3    NaN  57.15
+130   4593                                      Kentucky Owl Confiscated                                      Kentucky Owl Confiscated     779.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reczcZOsqVRMEF0X0    NaN  48.20
+135   2476                                          Old Grand Dad Bonded                                          Old Grand Dad Bonded     793.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recZFqcPggFRQ1V4w    NaN  50.00
+136  19971                                Penelope 5 Year Toasted Barrel                                Penelope 5 Year Toasted Barrel    2817.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/5f9ce3fe-0b05-49e0-b063-86f0c9906435    NaN  50.00
+147  18070                                         Blood Oath Pact No. 8                                         Blood Oath Pact No. 8     849.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recT4c7Pf4qfLBCSU    NaN  49.30
+157  41273                                               Stagg Batch 24A                                               Stagg Batch 24A    3640.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/8eb464d7-81f5-4df2-84d4-174c85d2389b    NaN  63.80
+159  21242                                  George T. Stagg 2023 Release                                  George T. Stagg 2023 Release     352.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recEjgFQvnlVNcH77    NaN  67.50
+160    893                                         Old Forester 86 Proof                                         Old Forester 86 Proof     152.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recgKSyn8Ed6oZW72    NaN  43.00
+169   1579                                        Basil Hayden's 10 Year                                        Basil Hayden's 10 Year     330.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recOVSI9ABAypKBe3    NaN  40.00
+181   4588                                         Rowan's Creek 12 Year                                         Rowan's Creek 12 Year    8524.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recz9nrva4Dt27gDg    NaN  50.05
+189    286                             Buffalo Trace Kosher Wheat 7 Year                             Buffalo Trace Kosher Wheat 7 Year     245.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/rec9DcfxtrwJNKsqq    NaN  47.00
+201   4575                             E.H. Taylor, Jr. 18 Year Marriage                             E.H. Taylor, Jr. 18 Year Marriage     210.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recz0y5B3H7Gfkl6i    NaN  50.00
+206  17688                Old Forester Rye Barrel Strength Single Barrel                Old Forester Rye Barrel Strength Single Barrel     152.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/61465bf4-95ec-475e-b437-357ff094d0f5    NaN  64.05
+213  20005                     Booker's 7 Year "Apprentice Batch" - 2023                     Booker's 7 Year "Apprentice Batch" - 2023     647.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/e77ce3f3-53b5-4763-bfa4-c9e16f33c09c    NaN  62.75
+225  17630                            Kentucky Owl St. Patrick's Edition                            Kentucky Owl St. Patrick's Edition     779.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recwCoPXgMCJJI8QA    NaN  50.00
+226   1948                          Old Forester Single Barrel 100 Proof                          Old Forester Single Barrel 100 Proof    5959.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recTLhfHyFC8BjPg9    NaN  50.00
+229  19819                               Larceny Barrel Proof Batch B523                               Larceny Barrel Proof Batch B523     587.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recJHmbS4hrqexmel    NaN  62.20
+235    592                                             Lagavulin 16 Year                                             Lagavulin 16 Year     392.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reccgxdrBpjntE23d    NaN  43.00
+245   3560                                           I.W. Harper 15 Year                                           I.W. Harper 15 Year    2532.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recnRwgBB0SFF97In    NaN  43.00
+250  19529                                               Stagg Batch 22B                                               Stagg Batch 22B    8803.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/259fbcf5-f250-40db-9d69-a112fd5a230e    NaN  65.00
+254  21024                                             Stagg 127.8 Proof                                             Stagg 127.8 Proof    3640.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recJKINRoUEYSA64z    NaN  63.90
+258  16693                                       Hibiki Japanese Harmony                                       Hibiki Japanese Harmony     484.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recp4FoniEogHMv1q    NaN  43.00
+274   3086                                 Baker's 13 Year Single Barrel                                 Baker's 13 Year Single Barrel     288.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/rec7Toerkp3HPRauW    NaN  53.50
+279  18104                                        Weller 12 Year 1 Liter                                        Weller 12 Year 1 Liter     156.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recEgaAN8fKvS1TFf    NaN  45.00
+280  17177                          Wilderness Trail Small Batch Bourbon                          Wilderness Trail Small Batch Bourbon     521.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/ba1af8db-4837-4ed5-9a92-660f2315502a    NaN  50.00
+297  19546                                           Wild Turkey 12 Year                                           Wild Turkey 12 Year     191.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/350b65e4-30bf-42e9-9f5c-da9d1a22d512    NaN  50.50
+307  28079                                        Elmer T. Lee Sour Mash                                        Elmer T. Lee Sour Mash     700.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/1862de16-5772-4b02-8bd1-fad3380a6757    NaN  45.00
+318  18075                               Larceny Barrel Proof Batch A122                               Larceny Barrel Proof Batch A122     587.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/04fcef59-d615-4785-a99d-5925d6da97cc    NaN  62.20
+328   2697                             Johnny Drum Private Stock 15 Year                             Johnny Drum Private Stock 15 Year    7042.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/06ece279-81b4-4fa7-8cda-5a63f24e9674    NaN  50.50
+331   1142                               Buffalo Trace Kosher Rye 7 Year                               Buffalo Trace Kosher Rye 7 Year     245.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recJIm3XkCpC08XeD    NaN  47.00
+334  25363                       Woodford Reserve Derby 150 2024 Release                       Woodford Reserve Derby 150 2024 Release    2004.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/2e694775-8458-4715-8167-da45ce83030b    NaN  45.20
+336  18228                               Larceny Barrel Proof Batch B522                               Larceny Barrel Proof Batch B522     587.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recUAXjihMfFYC3qo    NaN  61.90
+344  23515                                      Four Roses Single Barrel                                      Four Roses Single Barrel     148.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/711aa5ca-6e6a-4703-a88a-3caaac44c54e    NaN  50.00
+350  42342  Heaven Hill Grain to Glass Kentucky Straight Bourbon Whiskey  Heaven Hill Grain to Glass Kentucky Straight Bourbon Whiskey       NaN  https://d1w35me0y6a2bb.cloudfront.net/newproducts/20614d39-5f60-4b08-91db-a7f4156f68f2.jpg  107.0  53.50
+366   2363                                                  W.B. Saffell                                                  W.B. Saffell     191.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recYpRTtcwrV1QRQh    NaN  53.50
+385  32083                                        Blood Oath Pact No. 10                                        Blood Oath Pact No. 10     849.0  https://d1w35me0y6a2bb.cloudfront.net/newproducts/ee199b8d-8d98-480c-bbba-2c12a54b42ba.jpg    NaN  49.30
+389  53003                                                     Stagg 24C                                                     Stagg 24C       NaN      https://d1w35me0y6a2bb.cloudfront.net/newproducts/e42ec1ee-8237-467b-aa2f-1eb469250661  128.9  64.45
+397  16248                                Kirkland Signature Small Batch                                Kirkland Signature Small Batch    1118.0                                                                                         NaN   92.0  46.00
+399  20206                                           Larceny Small Batch                                           Larceny Small Batch     587.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recwu4nkbnaXXJm3Q    NaN  46.00
+401  39325                 Booker's 7 Year "The Beam House Batch" - 2024                 Booker's 7 Year "The Beam House Batch" - 2024     647.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/a73d46be-ab87-494e-be58-2fc937b1b335    NaN  62.30
+411  13891                                      Blue Spot 7 Year Batch 3                                      Blue Spot 7 Year Batch 3    8935.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recWV9aG5DJ7VtvSz    NaN  58.90
+414   3208                              The Balvenie Double Wood 12 year                              The Balvenie Double Wood 12 year     337.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reci6cgpNXbTcLBJo    NaN  43.00
+420  17101                       Booker's 6 Year "Tagalong Batch" - 2021                       Booker's 6 Year "Tagalong Batch" - 2021     647.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recgxNrE9aHRRi0VX    NaN  63.95
+423  12408                                                Don Julio 1942                                                Don Julio 1942    1592.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recn9MqzJeAc8PG3n    NaN  40.00
+434  17547                               Larceny Barrel Proof Batch C921                               Larceny Barrel Proof Batch C921     587.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reccPhitbiAo1TE6s    NaN  61.30
+446  17420                   Elijah Craig 1991 20 Year Single Barrel #42                   Elijah Craig 1991 20 Year Single Barrel #42       2.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/reczbTa2BrUYAFpaY    NaN  45.00
+455  18356                                            Stagg Jr. Batch 15                                            Stagg Jr. Batch 15    8803.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recLPnhzJI5P636uW    NaN  65.55
+466  44603                         Maker's Mark Cellar Aged 2024 Release                         Maker's Mark Cellar Aged 2024 Release     333.0      https://d1w35me0y6a2bb.cloudfront.net/newproducts/934315e0-1c80-49cd-899a-880d9c1cc75a    NaN  59.65
+467  19812                                  George T. Stagg 2022 Release                                  George T. Stagg 2022 Release     352.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/rechivCzlM6c3U9CI    NaN  69.35
+474  17356                Woodford Reserve Five-Malt Stouted Mash - 2021                Woodford Reserve Five-Malt Stouted Mash - 2021    2004.0                         https://d1w35me0y6a2bb.cloudfront.net/newproducts/recL1AKhaM23WoArl    NaN  45.20
+488  42831                          Bomberger’s Declaration 2024 Release                          Bomberger’s Declaration 2024 Release       NaN      https://d1w35me0y6a2bb.cloudfront.net/newproducts/ccd1aef7-956c-4f13-b0a7-325977d25b0a  108.0  54.00
+498  12152                                    Fortaleza Reposado Tequila                                    Fortaleza Reposado Tequila       NaN      https://d1w35me0y6a2bb.cloudfront.net/newproducts/c781b7ba-bb38-48bd-a1a7-6497398cecab   80.0  40.00
+
+=== DUPLICATE ROWS (Name + Brand) ===
+        id                                      name  brand_id
+1     2848                        Eagle Rare 10 Year     542.0
+3      466                             Buffalo Trace     245.0
+4      158                        Weller Antique 107     156.0
+5     2803                    Weller Special Reserve     156.0
+19    2336             Woodford Reserve Double Oaked    2004.0
+32    1587         Willett Pot Still Reserve Bourbon    2986.0
+42     873                    Weller Special Reserve     156.0
+56    4762  Jack Daniel's Single Barrel Barrel Proof     231.0
+58     620                             Buffalo Trace     245.0
+64   15966                         Knob Creek 9 Year     189.0
+80    3651                        Eagle Rare 10 Year     542.0
+112   3958                    Basil Hayden's Bourbon     330.0
+113   4450                             Buffalo Trace     245.0
+123   4598                        Weller Antique 107     156.0
+133  14147                                 Blanton's      10.0
+149  17898                    Weller Special Reserve     156.0
+172   5131  Jack Daniel's Single Barrel Barrel Proof     231.0
+198   2331                        Eagle Rare 10 Year     542.0
+215   4783             Woodford Reserve Double Oaked    2004.0
+277   3867                                 Blanton's      10.0
+281   2256                             Buffalo Trace     245.0
+380    651         Willett Pot Still Reserve Bourbon    2986.0
+383   2833                    Basil Hayden's Bourbon     330.0
+482    149             Woodford Reserve Double Oaked    2004.0
+499  17644                         Knob Creek 9 Year     189.0
+
+=== NUMERIC OUTLIERS (IQR) ===
+
+Column 'proof': 2 outliers
+       id                             name  proof
+82   3731  Michter's US1 Toasted Sour Mash    1.0
+115  7140      Buffalo Trace Bourbon Cream   30.0
+
+Column 'abv': 2 outliers
+       id                             name   abv
+82   3731  Michter's US1 Toasted Sour Mash   0.5
+115  7140      Buffalo Trace Bourbon Cream  15.0
+
+Column 'avg_msrp': 27 outliers
+        id                                                   name  avg_msrp
+47   33209                              Russell’s Reserve 15 Year    249.99
+62     519                Pappy Van Winkle 23 Year Family Reserve    321.64
+68    4002  Michter's 10 Year Single Barrel Bourbon 2020 Bottling    189.99
+71    3694             Van Winkle 12 Year Special Reserve Lot "B"    799.99
+77   18530                     Knob Creek 18 Year Limited Edition    163.31
+85    1217                      Joseph Magnus Cigar Blend Bourbon    173.33
+94    1046                                 Double Eagle Very Rare   1944.94
+101  16681                                        Blanton's Black    199.99
+103   4776                Pappy Van Winkle 20 Year Family Reserve    218.31
+156  18508                                 Willett Wheated 8 Year    249.99
+
+Column 'shelf_price': 53 outliers
+       id                                                   name  shelf_price
+9     409                                      Weller Full Proof       399.99
+38   1211                             Old Rip Van Winkle 10 Year       816.66
+46   3300                Pappy Van Winkle 15 Year Family Reserve      1617.37
+47  33209                              Russell’s Reserve 15 Year       398.31
+52   4739             Colonel E.H. Taylor Barrel Proof - Batch 6       422.99
+54   4448                                   Weller Single Barrel       748.99
+55    477                           George T. Stagg 2009 Release       974.99
+62    519                Pappy Van Winkle 23 Year Family Reserve      4899.97
+67   3959                            William Larue Weller - 2009      1296.96
+68   4002  Michter's 10 Year Single Barrel Bourbon 2020 Bottling       437.24
+
+Column 'size': 33 outliers
+        id                          name  size
+40    1074   Early Times Bottled In Bond  1000
+42     873        Weller Special Reserve  1750
+58     620                 Buffalo Trace  1750
+80    3651            Eagle Rare 10 Year  1750
+86    1966  Jack Daniel's Sinatra Select  1000
+113   4450                 Buffalo Trace  1000
+123   4598            Weller Antique 107  1750
+133  14147                     Blanton's   375
+148  18184          Jack Daniel's Bonded   700
+149  17898        Weller Special Reserve  1000
+
+=== UNREALISTIC VALUES (Industry Standards) ===
+
+Unrealistic proof (<40 or >160): 2 entries
+       id                             name  proof
+82   3731  Michter's US1 Toasted Sour Mash    1.0
+115  7140      Buffalo Trace Bourbon Cream   30.0
+
+Unrealistic bottle sizes: 14 entries
+        id                                                    name  size
+42     873                                  Weller Special Reserve  1750
+58     620                                           Buffalo Trace  1750
+80    3651                                      Eagle Rare 10 Year  1750
+123   4598                                      Weller Antique 107  1750
+148  18184                                    Jack Daniel's Bonded   700
+244   3181                                        Yamazaki 12 Year   700
+251  18185                               Jack Daniel’s Triple Mash   700
+297  19546                                     Wild Turkey 12 Year   700
+311  27454  Woodford Reserve Master's Collection Batch Proof 121.2   700
+337  17223                               Blanton's Special Reserve   700
+361   2287                            Nikka Whisky From The Barrel   500
+380    651                       Willett Pot Still Reserve Bourbon  1750
+411  13891                                Blue Spot 7 Year Batch 3   700
+499  17644                                       Knob Creek 9 Year  1750
+
+=== DATA TYPES ===
+id                  int64
+name               object
+size                int64
+proof             float64
+abv               float64
+spirit_type        object
+brand_id          float64
+popularity        float64
+image_url          object
+avg_msrp          float64
+fair_price        float64
+shelf_price       float64
+total_score         int64
+wishlist_count      int64
+vote_count          int64
+bar_count           int64
+ranking             int64
