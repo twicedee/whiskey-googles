@@ -1,7 +1,49 @@
-whiskey-googles/dataset/processed/
-whiskey-googles/dataset/reports/
-whiskey-googles/backend/
-whiskey-googles/models/trained_models/
-whiskey-googles/images/
-whiskey-googles/tests1/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
+# Virtual environment
+venv/
+env/
+backend/  # This should cover your problematic Lib/site-packages/
+
+# Dataset files
+dataset/processed/
+dataset/reports/
+
+# Models
+models/trained_models/
+
+# Images
+images/
+
+# Tests
+tests1/
+test/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
