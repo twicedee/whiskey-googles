@@ -1,5 +1,5 @@
-#Whiskey googles
-
+##Whiskey googles
+This is a deep learning system that identifies whiskey brands from bottle images using text recognition, visual features, and hybrid approaches.
 ## Features
 - Multi-model recognition (Text, Visual, Hybrid)
 - Dataset evaluation capabilities
