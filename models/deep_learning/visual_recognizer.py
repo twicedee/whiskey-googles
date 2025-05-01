@@ -11,9 +11,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from sklearn.preprocessing import LabelEncoder
 from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestClassifier
-from src.features.visual_features import detect_label_region, extract_color_histogram
-from sklearn.neighbors import NearestNeighbors
+from src.features.visual_features import detect_label_region
 from sklearn.preprocessing import StandardScaler
 import joblib
 
