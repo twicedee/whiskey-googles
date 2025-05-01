@@ -24,7 +24,7 @@ MANIFEST
 # Virtual environment
 venv/
 env/
-backend/  # This should cover your problematic Lib/site-packages/
+backend/  
 
 # Dataset files
 dataset/processed/
