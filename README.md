@@ -130,7 +130,8 @@ These results demonstrate our hybrid approach combining text and visual recognit
 
   
 ## 🎥 Quick Demo  
-<video src=".github/assets/compressed-demo.mp4" width="800" controls muted poster=".github/assets/poster.jpg">
-  Your browser doesn't support video. [Download instead](.github/assets/full-demo.mp4).
+<video src=".github/assets/demo.mp4" width="800" controls muted poster=".github/assets/poster.jpg">
+  Your browser doesn't support video. [Download instead](.github/assets/demo.mp4).
 </video>
+
 [Watch demo](.github/assets/demo.mp4)
