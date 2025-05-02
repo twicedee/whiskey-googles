@@ -15,7 +15,6 @@ This is a deep learning system that identifies whiskey brands from bottle images
 ## 🛠️ Tech Stack
 
 ### Core Frameworks
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.6.0-EE4C2C?logo=pytorch&logoColor=white)]()
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19.0-FF6F00?logo=tensorflow&logoColor=white)]()
 [![Keras](https://img.shields.io/badge/Keras-3.9.2-D00000?logo=keras&logoColor=white)]()
 
@@ -34,7 +33,7 @@ This is a deep learning system that identifies whiskey brands from bottle images
 
 ---
 **Integration Flow**  
-![Pipeline](https://img.shields.io/badge/PyTorch→OpenCV→TensorFlow-EE4C2C/5C3EE8/FF6F00?style=flat)  
+![Pipeline](https://img.shields.io/badge/OpenCV→TensorFlow-EE4C2C/5C3EE8/FF6F00?style=flat)  
 ![Text Flow](https://img.shields.io/badge/EasyOCR→Pandas→Jellyfish-000000/150458/8A9BCC?style=flat)
 
 
